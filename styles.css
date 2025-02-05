@@ -1,0 +1,141 @@
+/* General styles */
+body {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Library container styles */
+.library-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: left;
+}
+
+/* Book card styles */
+.book-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.book-card h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #333;
+}
+
+.author {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  color: #666;
+}
+
+.book-card p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  color: #666;
+}
+
+.toggle-read-label {
+  margin-top: 24px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Modal dialog styles */
+dialog {
+  /* padding: 20px; */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  background-color: white;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  text-align: left;
+  color: #333;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="checkbox"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-left: 10px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+button.cancel {
+  background-color: #6c757d;
+}
+
+button.cancel:hover {
+  background-color: #5a6268;
+}
+
+/* Remove icon styles */
+.remove-icon {
+  margin-top: 24px;
+  padding: 4px;
+  background: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 1em;
+  color: #ccc;
+  align-items: flex-end;
+}
