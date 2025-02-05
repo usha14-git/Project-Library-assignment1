@@ -1,4 +1,4 @@
-//Project Library - commented for github demo
+//Project Library - second commented for github demo
 
 // Book constructor
 export function Book(title, author, no_of_pages, haveRead) {
