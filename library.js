@@ -1,4 +1,5 @@
-//Project Library
+//Project Library - commented for github demo
+
 // Book constructor
 export function Book(title, author, no_of_pages, haveRead) {
   this.title = title;
