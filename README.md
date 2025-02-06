@@ -23,13 +23,15 @@ This is a simple library application that allows users to add, display, and mana
    git clone git@github.com:usha14-git/Project-Library-assignment1.git
    ```
 
-Usage:
+### Usage
+
 Open index.html in your web browser to view the application.
 Use the "New Book" button to add a new book to the library.
 Toggle the read status of a book by clicking on the "Read" button.
 Remove a book from the library by clicking on the "Remove" button.
 
-Acknowledgments
+### Acknowledgments
+
 This project is part of The Odin Project curriculum.
 
 ```
